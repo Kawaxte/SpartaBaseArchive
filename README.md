@@ -1,20 +1,16 @@
 # Sparta Base Archive
 
-What is this? It's a collection of Sparta Bases I've made throughout 2016 to present day.
+A collection of Sparta Bases I've made throughout 2016 to current day.
 
-The only difference is that the uploads here will all be using [PreSonus Studio One 6](https://www.presonus.com/en/studio-one.html?rdl=true) and not various versions of [Image-Line FL Studio](https://www.image-line.com/fl-studio).
+Difference is that I will be using [PreSonus Studio One 6](https://www.presonus.com/en/studio-one.html?rdl=true) and not various versions of [Image-Line FL Studio](https://www.image-line.com/fl-studio).
 
-My motivation try to port as many of my .FLP projects over to .Song will be questionable.
+My motivation depends on when some of them will complete the porting process. I'll be updating this repository as I do so.
 
 ---
 
 ## Prerequisites
 
-For the most part, you'll need to have [PreSonus Studio One 6](https://www.presonus.com/en/studio-one.html?rdl=true) installed on your computer.
-
-The challenge comes in getting Image-Line synth VSTs in Studio One, especially deprecated ones like "TS404 Bassline Synthesizer" or something non-standalone like 3xOsc.
-
-This is why I am opting out of trying to make use of plugins that you can't use outside of FL Studio, and I would rather not make use of "FL Studio as a VSTi" in Studio One, which already requires you to have FL Studio installed. I'll simply try to find plugins that mimic the behavior and style of the ones we can't naturally have.
+To start things off with, you'll need to have [PreSonus Studio One 6](https://www.presonus.com/en/studio-one.html?rdl=true) installed on your computer.
 
 For the plugins, however, you're going to need the following:
 
@@ -69,7 +65,7 @@ For the plugins, however, you're going to need the following:
   - [x] XP Xenox Signature 1
   - [x] XP Xenox Signature 2
 
-More used plugins will be added as I keep porting projects over.
+More plugins will be added as I keep porting projects over.
 
 ---
 
