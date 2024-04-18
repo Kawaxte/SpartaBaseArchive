@@ -19,54 +19,55 @@ This is why I am opting out of trying to make use of plugins that you can't use 
 For the plugins, however, you're going to need the following:
 
 - reFX Nexus 4.5.13 _or greater_
-  - [x] Analog
-  - [x] Bass
-  - [x] Bigtone Signature
-  - [x] Bigtone Signature 2
-  - [x] Christmas
-  - [x] Crank
-  - [x] Dance
-  - [x] Dance 2
-  - [x] Dance 3
-  - [x] Dance Orchestra
-  - [x] Drums Loops
-  - [x] Drums Singles
-  - [x] Guitars
-  - [x] HandsUp-Electro Bass
-  - [x] HandsUp-Electro Bass 2
-  - [x] Hardstyle
-  - [x] House
-  - [x] Minimal House
-  - [x] Minimal House 2
-  - [x] Omicron
-  - [x] Perpetual Motion
-  - [x] Pop
-  - [x] Psytrance
-  - [x] ROM Extension
-  - [x] SID
-  - [x] Store'n'Forward
-  - [x] Stratosphere
-  - [x] Vintage Drumkits
-  - [x] Vocoder
+  - [X] Factory Presets
+  - [x] XP Analog
+  - [x] XP Bass
+  - [x] XP Bigtone Signature
+  - [x] XP Bigtone Signature 2
+  - [x] XP Christmas
+  - [x] XP Crank
+  - [x] XP Dance
+  - [x] XP Dance 2
+  - [x] XP Dance 3
+  - [x] XP Dance Orchestra
+  - [x] XP Drums Loops
+  - [x] XP Drums Singles
+  - [x] XP Guitars
+  - [x] XP HandsUp-Electro Bass
+  - [x] XP HandsUp-Electro Bass 2
+  - [x] XP Hardstyle
+  - [x] XP House
+  - [x] XP Minimal House
+  - [x] XP Minimal House 2
+  - [x] XP Omicron
+  - [x] XP Perpetual Motion
+  - [x] XP Pop
+  - [x] XP Psytrance
+  - [x] XP ROM Extension
+  - [x] XP SID
+  - [x] XP Store'n'Forward
+  - [x] XP Stratosphere
+  - [x] XP Vintage Drumkits
+  - [x] XP Vocoder
 - reFX Vanguard 2.0.7 _or greater_
-  - [x] Artificial Pleasures
-  - [x] Bigtone Electronic Garden
-  - [x] Bigtone Signature
-  - [x] Bigtone Silicon Frontiers
-  - [x] DHS Signature
-  - [x] NextBeat Dance Basics
-  - [x] Sounds of Revolution
-  - [x] Sounds of Revolution 2
-  - [x] Sounds of Revolution 3
-  - [x] Synthation
-  - [x] Toxicity
-  - [x] Vengeance Part 1
-  - [x] Vengeance Part 2
-  - [x] Vengeance Reloaded Vol 1
-  - [x] Vengeance Reloaded Vol 2
-  - [x] Vengeance Reloaded Vol 3
-  - [x] Xenox Signature 1
-  - [x] Xenox Signature 2
+  - [x] XP Artificial Pleasures
+  - [x] XP Bigtone Electronic Garden
+  - [x] XP Bigtone Signature
+  - [x] XP Bigtone Silicon Frontiers
+  - [x] XP DHS Signature
+  - [x] XP NextBeat Dance Basics
+  - [x] XP Sounds of Revolution
+  - [x] XP Sounds of Revolution 2
+  - [x] XP Sounds of Revolution 3
+  - [x] XP Synthation
+  - [x] XP Toxicity
+  - [x] XP Vengeance Part 1
+  - [x] XP Vengeance Part 2
+  - [x] XP Vengeance Reloaded Vol 1
+  - [x] XP Vengeance Reloaded Vol 2
+  - [x] XP Vengeance Reloaded Vol 3
+  - [x] XP Xenox Signature 1
+  - [x] XP Xenox Signature 2
 
 More used plugins will be added as I keep porting projects over.
 
