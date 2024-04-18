@@ -71,7 +71,7 @@ For all of the listed Bases, you'll need the following synths:
 - [Vengeance Sound Essential Clubsounds Vol. 1](https://www.vengeance-sound.com/samples.php)
 - [Vengeance Sound Essential Clubsounds Vol. 2](https://www.vengeance-sound.com/samples.php)
 - [Vengeance Sound Essential Clubsounds Vol. 3](https://www.vengeance-sound.com/samples.php)
-- [Vengeance Sound Essential Clubsounds Vol. 4](https://www.vengeance-sound.com/samples.php)
+<!-- - [Vengeance Sound Essential Clubsounds Vol. 4](https://www.vengeance-sound.com/samples.php) -->
 - [Vengeance Sound Essential Clubsounds Vol. 5](https://www.vengeance-sound.com/samples.php)
 
 _More plugins will be added as I keep porting projects over._
