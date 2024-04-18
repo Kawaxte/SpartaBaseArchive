@@ -75,6 +75,6 @@ More used plugins will be added as I keep porting projects over.
 
 ## Licence
 
-[![gh_licence](https://img.shields.io/github/license/Kawaxte/sparta-base-archive?logo=github&style=for-the-badge)](LICENSE)
+[![gh_licence](https://img.shields.io/github/license/Kawaxte/SpartaBaseArchive?logo=github&style=for-the-badge)](LICENSE)
 
 This project is licenced under the Creative Commons Zero v1.0 Universal Licence. You can use the project for any purpose.
