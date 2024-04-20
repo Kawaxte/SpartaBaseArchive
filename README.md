@@ -12,7 +12,7 @@ My motivation depends on when some of them will complete the porting process. I'
 
 First and foremost, you'll need to have [PreSonus Studio One 6](https://www.presonus.com/en/studio-one.html?rdl=true) installed on your computer.
 
-For all of the listed Bases, you'll need the following synths:
+Second and not least, you'll need to have the following synths:
 
 - [reFX Nexus 4.5.13](https://refx.com/nexus/)
   - Factory Presets
@@ -65,6 +65,7 @@ For all of the listed Bases, you'll need the following synths:
   - XP Vengeance Reloaded Vol 3
   - XP Xenox Signature
   - XP Xenox Signature 2
+- [Synapse Audio DUNE 3.6.0](https://www.synapse-audio.com/dune3.html)
 
 ...and the following sample packs:
 
