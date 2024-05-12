@@ -10,72 +10,84 @@ My motivation depends on when some of them will complete the porting process. I'
 
 ## Prerequisites
 
-First and foremost, you'll need to have [PreSonus Studio One 6](https://www.presonus.com/en/studio-one.html?rdl=true) installed on your computer.
+First and foremost, you'll need [PreSonus Studio One 6](https://www.presonus.com/en/studio-one.html?rdl=true) installed on your computer.
 
-Second and not least, you'll need to have the following synths:
+Second and not least, you'll need to have the following synths/programs:
 
-- [reFX Nexus 4.5.13](https://refx.com/nexus/)
-  - Factory Presets
-  - XP Analog
-  - XP Bass
-  - XP Bigtone Signature
-  - XP Bigtone Signature 2
-  - XP Christmas
-  - XP Crank
-  - XP Dance
-  - XP Dance 2
-  - XP Dance 3
-  - XP Dance Orchestra
-  - XP Drums Loops
-  - XP Drums Singles
-  - XP Guitars
-  - XP HandsUp-Electro Bass
-  - XP HandsUp-Electro Bass 2
-  - XP Hardstyle
-  - XP House
-  - XP Minimal House
-  - XP Minimal House 2
-  - XP Omicron
-  - XP Perpetual Motion
-  - XP Pop
-  - XP Psytrance
-  - XP ROM Extension
-  - XP SID
-  - XP Store'n'Forward
-  - XP Stratosphere
-  - XP Vintage Drumkits
-  - XP Vocoder
-- [reFX Vanguard 2.0.7](https://refx.com/vanguard/)
-  - Factory Presets
-  - XP Artificial Pleasures
-  - XP Bigtone Electronic Garden
-  - XP Bigtone Signature
-  - XP Bigtone Silicon Frontiers
-  - XP DHS Signature
-  - XP NextBeat Dance Basics
-  - XP Sounds of Revolution
-  - XP Sounds of Revolution 2
-  - XP Sounds of Revolution 3
-  - XP Synthation
-  - XP Toxicity
-  - XP Vengeance Part 1
-  - XP Vengeance Part 2
-  - XP Vengeance Reloaded Vol 1
-  - XP Vengeance Reloaded Vol 2
-  - XP Vengeance Reloaded Vol 3
-  - XP Xenox Signature
-  - XP Xenox Signature 2
-- [Synapse Audio DUNE 3.6.0](https://www.synapse-audio.com/dune3.html)
+- [OpenUTAU](https://www.openutau.com/)
+- [reFX - Nexus 4.5.17](https://refx.com/nexus/)
+  - <details>
+      <summary>NEXUS library</summary>
+      Factory Presets<br>
+      XP Analog<br>
+      XP Bass<br>
+      XP Bigtone Signature<br>
+      XP Bigtone Signature 2<br>
+      XP Christmas<br>
+      XP Crank<br>
+      XP Dance<br>
+      XP Dance 2<br>
+      XP Dance 3<br>
+      XP Dance Orchestra<br>
+      XP Drums Loops<br>
+      XP Drums Singles<br>
+      XP Guitars<br>
+      XP HandsUp-Electro Bass<br>
+      XP HandsUp-Electro Bass 2<br>
+      XP Hardstyle<br>
+      XP House<br>
+      XP Minimal House<br>
+      XP Minimal House 2<br>
+      XP Omicron<br>
+      XP Perpetual Motion<br>
+      XP Pop<br>
+      XP Psytrance<br>
+      XP ROM Extension<br>
+      XP SID<br>
+      XP Store'n'Forward<br>
+      XP Stratosphere<br>
+      XP Vintage Drumkits<br>
+      XP Vocoder<br>
+    </details>
+
+- [reFX - Vanguard 2.0.7](https://refx.com/vanguard/)
+  - <details>
+      <summary>VANGUARD library</summary>
+      Factory Presets<br>
+      XP Artificial Pleasures<br>
+      XP Bigtone Electronic Garden<br>
+      XP Bigtone Signature<br>
+      XP Bigtone Silicon Frontiers<br>
+      XP DHS Signature<br>
+      XP NextBeat Dance Basics<br>
+      XP Sounds of Revolution<br>
+      XP Sounds of Revolution 2<br>
+      XP Sounds of Revolution 3<br>
+      XP Synthation<br>
+      XP Toxicity<br>
+      XP Vengeance Part 1<br>
+      XP Vengeance Part 2<br>
+      XP Vengeance Reloaded Vol 1<br>
+      XP Vengeance Reloaded Vol 2<br>
+      XP Vengeance Reloaded Vol 3<br>
+      XP Xenox Signature<br>
+      XP Xenox Signature 2<br>
+    </details>
+
+- [Synapse Audio - DUNE 3.6.0](https://www.synapse-audio.com/dune3.html)
 
 ...and the following sample packs:
 
-- [Vengeance Sound Essential Clubsounds Vol. 1](https://www.vengeance-sound.com/samples.php)
-- [Vengeance Sound Essential Clubsounds Vol. 2](https://www.vengeance-sound.com/samples.php)
-- [Vengeance Sound Essential Clubsounds Vol. 3](https://www.vengeance-sound.com/samples.php)
-- [Vengeance Sound Essential Clubsounds Vol. 4](https://www.vengeance-sound.com/samples.php)
-<!-- - [Vengeance Sound Essential Clubsounds Vol. 5](https://www.vengeance-sound.com/samples.php) -->
+- [Vengeance Sound - Essential Clubsounds Vol. 1](https://www.vengeance-sound.com/samples.php)
+- [Vengeance Sound - Essential Clubsounds Vol. 2](https://www.vengeance-sound.com/samples.php)
+- [Vengeance Sound - Essential Clubsounds Vol. 3](https://www.vengeance-sound.com/samples.php)
+- [Vengeance Sound - Essential Clubsounds Vol. 4](https://www.vengeance-sound.com/samples.php)
+<!-- - [Vengeance Sound - Essential Clubsounds Vol. 5](https://www.vengeance-sound.com/samples.php) -->
 
-_More plugins will be added as I keep porting projects over._
+....and the following voice banks:
+- [TWINDRILL - 重音テト (Kasane Teto)](https://kasaneteto.jp/utau/)
+
+_More stuffs will be added as I keep uploading._
 
 ---
 
