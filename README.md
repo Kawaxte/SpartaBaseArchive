@@ -10,7 +10,7 @@ My motivation depends on when some of them will complete the porting process. I'
 
 ## Prerequisites
 
-First and foremost, you'll need [PreSonus Studio One 6](https://www.presonus.com/en/studio-one.html?rdl=true) installed on your computer.
+First and foremost, you'll need [PreSonus Studio One 6](https://legacy.presonus.com/products/Studio-One).
 
 Second and not least, you'll need to have the following programs:
 
@@ -18,7 +18,9 @@ Second and not least, you'll need to have the following programs:
 
 ...and the following synth plugins:
 
-- [Image-Line - Sytrus 2.6.19](http://www.image-line.com/plugins/Synths/Sytrus/)
+- [Image-Line - GSM 1.0.6](https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/GMS.htm)
+
+- [Image-Line - Sytrus 2.6.19](https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/Sytrus.htm)
 
 - [reFX - Nexus 4.5.17](https://refx.com/nexus/)
   - <details>
