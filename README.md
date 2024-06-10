@@ -18,7 +18,7 @@ Second and not least, you'll need to have the following programs:
 
 ...and the following synth plugins:
 
-- [Image-Line - GSM 1.0.6](https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/GMS.htm)
+- [Image-Line - GMS 1.0.6](https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/GMS.htm)
 
 - [Image-Line - Sytrus 2.6.19](https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/Sytrus.htm)
 
