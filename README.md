@@ -12,9 +12,14 @@ My motivation depends on when some of them will complete the porting process. I'
 
 First and foremost, you'll need [PreSonus Studio One 6](https://www.presonus.com/en/studio-one.html?rdl=true) installed on your computer.
 
-Second and not least, you'll need to have the following synths/programs:
+Second and not least, you'll need to have the following programs:
 
 - [OpenUTAU](https://www.openutau.com/)
+
+...and the following synth plugins:
+
+- [Image-Line - Sytrus 2.6.19](http://www.image-line.com/plugins/Synths/Sytrus/)
+
 - [reFX - Nexus 4.5.17](https://refx.com/nexus/)
   - <details>
       <summary>NEXUS library</summary>
@@ -75,14 +80,6 @@ Second and not least, you'll need to have the following synths/programs:
     </details>
 
 - [Synapse Audio - DUNE 3.6.0](https://www.synapse-audio.com/dune3.html)
-
-...and the following sample packs:
-
-- [Vengeance Sound - Essential Clubsounds Vol. 1](https://www.vengeance-sound.com/samples.php)
-- [Vengeance Sound - Essential Clubsounds Vol. 2](https://www.vengeance-sound.com/samples.php)
-- [Vengeance Sound - Essential Clubsounds Vol. 3](https://www.vengeance-sound.com/samples.php)
-- [Vengeance Sound - Essential Clubsounds Vol. 4](https://www.vengeance-sound.com/samples.php)
-<!-- - [Vengeance Sound - Essential Clubsounds Vol. 5](https://www.vengeance-sound.com/samples.php) -->
 
 ....and the following voice banks:
 - [TWINDRILL - 重音テト (Kasane Teto)](https://kasaneteto.jp/utau/)
