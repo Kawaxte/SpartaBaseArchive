@@ -24,6 +24,8 @@ Second and not least, you'll need to have the following programs:
 
 - Image-Line - Sytrus 2.6.19
 
+- [Kilohearts - Phase Plant 2.2.1](https://kilohearts.com/products/phase_plant)
+
 - [reFX - Nexus 4.5.17](https://refx.com/nexus/)
   - <details>
       <summary>NEXUS library</summary>
