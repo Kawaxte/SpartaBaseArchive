@@ -18,6 +18,8 @@ Second and not least, you'll need to have the following programs:
 
 ...and the following synth plugins:
 
+- [Arturia - Acid V 1.0.0.3840](https://www.synapse-audio.com/dune3.html)
+
 - [Image-Line - GMS 1.0.6](https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/GMS.htm)
 
 - [Image-Line - Sytrus 2.6.19](https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/Sytrus.htm)
@@ -80,8 +82,6 @@ Second and not least, you'll need to have the following programs:
       XP Xenox Signature<br>
       XP Xenox Signature 2<br>
     </details>
-
-- [Synapse Audio - DUNE 3.6.0](https://www.synapse-audio.com/dune3.html)
 
 ....and the following voice banks:
 - [TWINDRILL - 重音テト (Kasane Teto)](https://kasaneteto.jp/utau/)
