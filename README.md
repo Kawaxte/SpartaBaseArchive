@@ -18,11 +18,11 @@ Second and not least, you'll need to have the following programs:
 
 ...and the following synth plugins:
 
-- [Arturia - Acid V 1.0.0.3840](https://www.synapse-audio.com/dune3.html)
+- [Arturia - Acid V 1.0.0.3840](https://www.arturia.com/products/software-instruments/acid-v/overview)
 
-- [Image-Line - GMS 1.0.6](https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/GMS.htm)
+- Image-Line - GMS 1.0.6
 
-- [Image-Line - Sytrus 2.6.19](https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/Sytrus.htm)
+- Image-Line - Sytrus 2.6.19
 
 - [reFX - Nexus 4.5.17](https://refx.com/nexus/)
   - <details>
