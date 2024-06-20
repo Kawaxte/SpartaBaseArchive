@@ -96,4 +96,4 @@ _More stuffs will be added as I keep uploading._
 
 [![gh_licence](https://img.shields.io/github/license/Kawaxte/SpartaBaseArchive?logo=github&style=for-the-badge)](LICENSE)
 
-This project is licenced under the Creative Commons Zero v1.0 Universal Licence. You can use the project for any purpose.
+This project is licenced under the Creative Commons Zero v1.0 Universal Licence.
