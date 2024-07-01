@@ -2,15 +2,20 @@
 
 A collection of Sparta Bases I've made throughout 2016 to current day.
 
-Difference is that I will be using [PreSonus Studio One 6](https://www.presonus.com/en/studio-one.html?rdl=true) and not various versions of [Image-Line FL Studio](https://www.image-line.com/fl-studio).
+Difference is that I will be using
+[PreSonus Studio One 6](https://www.presonus.com/en/studio-one.html?rdl=true)
+and not various versions of
+[Image-Line FL Studio](https://www.image-line.com/fl-studio).
 
-My motivation depends on when some of them will complete the porting process. I'll be updating this repository as I do so.
+My motivation depends on when some of them will complete the porting process.
+I'll be updating this repository as I do so.
 
 ---
 
 ## Prerequisites
 
-First and foremost, you'll need [PreSonus Studio One 6](https://legacy.presonus.com/products/Studio-One).
+First and foremost, you'll need
+[PreSonus Studio One 6](https://legacy.presonus.com/products/Studio-One).
 
 Second and not least, you'll need to have the following programs:
 
@@ -86,6 +91,8 @@ Second and not least, you'll need to have the following programs:
     </details>
 
 ....and the following voice banks:
+
+- [zimtroeschen - Theresa -Vintage-](https://germancvcv.weebly.com/voicebanks.html)
 - [TWINDRILL - 重音テト (Kasane Teto)](https://kasaneteto.jp/utau/)
 
 _More stuffs will be added as I keep uploading._

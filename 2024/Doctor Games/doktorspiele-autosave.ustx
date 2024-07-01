@@ -31,10 +31,11 @@ expressions:
     abbr: clr
     type: Options
     min: 0
-    max: -1
+    max: 0
     default_value: 0
     is_flag: false
-    options: []
+    options:
+    - ""
   eng:
     name: resampler engine
     abbr: eng
@@ -185,10 +186,10 @@ exp_selectors:
 - dyn
 - pitd
 - clr
-- eng
-- vel
-exp_primary: 0
-exp_secondary: 1
+- vol
+- vol
+exp_primary: 3
+exp_secondary: 4
 key: 0
 time_signatures:
 - bar_position: 0
@@ -204,7 +205,7 @@ tracks:
     renderer: WORLDLINE-R
   track_name: Track1
   track_color: Blue
-  mute: false
+  mute: true
   solo: false
   volume: 0
   pan: 0
@@ -216,6 +217,21 @@ tracks:
   - 囁き - Whisper
   - 弱 - Weak
   - 滑らか - Smooth
+- singer: Theresa CVCV -Vintage- German
+  phonemizer: OpenUtau.Core.DefaultPhonemizer
+  renderer_settings:
+    renderer: WORLDLINE-R
+  track_name: Track2
+  track_color: Blue
+  mute: false
+  solo: false
+  volume: 0
+  pan: 0
+  voice_color_names:
+  - ""
+  - Dark
+  - Power
+  - Weak
 voice_parts:
 - name: New Part
   comment: ""
@@ -224,7 +240,7 @@ voice_parts:
   notes:
   - position: 0
     duration: 240
-    tone: 66
+    tone: 62
     lyric: '- だ'
     pitch:
       data:
@@ -236,7 +252,7 @@ voice_parts:
     phoneme_overrides: []
   - position: 240
     duration: 240
-    tone: 67
+    tone: 63
     lyric: い囁
     pitch:
       data:
@@ -251,7 +267,7 @@ voice_parts:
       overlap_delta: 81.428566
   - position: 480
     duration: 240
-    tone: 67
+    tone: 63
     lyric: ら囁
     pitch:
       data:
@@ -266,7 +282,7 @@ voice_parts:
       overlap_delta: 81.428566
   - position: 720
     duration: 240
-    tone: 64
+    tone: 60
     lyric: ん囁
     pitch:
       data:
@@ -281,7 +297,7 @@ voice_parts:
       overlap_delta: 81.428566
   - position: 960
     duration: 120
-    tone: 72
+    tone: 68
     lyric: '[うぃ]'
     pitch:
       data:
@@ -296,7 +312,7 @@ voice_parts:
       overlap_delta: 81.428566
   - position: 1080
     duration: 360
-    tone: 74
+    tone: 70
     lyric: '[い]'
     pitch:
       data:
@@ -308,7 +324,7 @@ voice_parts:
     phoneme_overrides: []
   - position: 1440
     duration: 480
-    tone: 74
+    tone: 70
     lyric: '[れ]'
     pitch:
       data:
@@ -322,7 +338,7 @@ voice_parts:
       overlap_delta: 136.46428
   - position: 1920
     duration: 240
-    tone: 66
+    tone: 62
     lyric: '- だ'
     pitch:
       data:
@@ -336,7 +352,7 @@ voice_parts:
       overlap_delta: 3
   - position: 2160
     duration: 240
-    tone: 67
+    tone: 63
     lyric: い囁
     pitch:
       data:
@@ -351,7 +367,7 @@ voice_parts:
       overlap_delta: 81.428566
   - position: 2400
     duration: 240
-    tone: 66
+    tone: 62
     lyric: ら囁
     pitch:
       data:
@@ -366,7 +382,7 @@ voice_parts:
       overlap_delta: 81.428566
   - position: 2640
     duration: 240
-    tone: 64
+    tone: 60
     lyric: ん囁
     pitch:
       data:
@@ -381,7 +397,7 @@ voice_parts:
       overlap_delta: 81.428566
   - position: 2880
     duration: 240
-    tone: 66
+    tone: 62
     lyric: '- だ'
     pitch:
       data:
@@ -395,7 +411,7 @@ voice_parts:
       overlap_delta: 3
   - position: 3120
     duration: 720
-    tone: 66
+    tone: 62
     lyric: a R息
     pitch:
       data:
@@ -409,7 +425,7 @@ voice_parts:
       overlap_delta: 17.1
   - position: 3840
     duration: 240
-    tone: 66
+    tone: 62
     lyric: '- だ'
     pitch:
       data:
@@ -421,7 +437,7 @@ voice_parts:
     phoneme_overrides: []
   - position: 4080
     duration: 240
-    tone: 67
+    tone: 63
     lyric: い囁
     pitch:
       data:
@@ -436,7 +452,7 @@ voice_parts:
       overlap_delta: 81.428566
   - position: 4320
     duration: 240
-    tone: 67
+    tone: 63
     lyric: ら囁
     pitch:
       data:
@@ -451,7 +467,7 @@ voice_parts:
       overlap_delta: 81.428566
   - position: 4560
     duration: 240
-    tone: 64
+    tone: 60
     lyric: ん囁
     pitch:
       data:
@@ -466,7 +482,7 @@ voice_parts:
       overlap_delta: 81.428566
   - position: 4800
     duration: 120
-    tone: 72
+    tone: 68
     lyric: '[うぃ]'
     pitch:
       data:
@@ -481,7 +497,7 @@ voice_parts:
       overlap_delta: 81.428566
   - position: 4920
     duration: 360
-    tone: 74
+    tone: 70
     lyric: '[い]'
     pitch:
       data:
@@ -493,7 +509,7 @@ voice_parts:
     phoneme_overrides: []
   - position: 5280
     duration: 480
-    tone: 74
+    tone: 70
     lyric: '[れ]'
     pitch:
       data:
@@ -507,7 +523,7 @@ voice_parts:
       overlap_delta: 136.46428
   - position: 5760
     duration: 240
-    tone: 66
+    tone: 62
     lyric: '- だ'
     pitch:
       data:
@@ -521,7 +537,7 @@ voice_parts:
       overlap_delta: 3
   - position: 6000
     duration: 240
-    tone: 67
+    tone: 63
     lyric: い囁
     pitch:
       data:
@@ -536,7 +552,7 @@ voice_parts:
       overlap_delta: 81.428566
   - position: 6240
     duration: 240
-    tone: 66
+    tone: 62
     lyric: ら囁
     pitch:
       data:
@@ -551,7 +567,7 @@ voice_parts:
       overlap_delta: 81.428566
   - position: 6480
     duration: 240
-    tone: 64
+    tone: 60
     lyric: ん囁
     pitch:
       data:
@@ -566,7 +582,7 @@ voice_parts:
       overlap_delta: 81.428566
   - position: 6720
     duration: 240
-    tone: 64
+    tone: 60
     lyric: '- だ'
     pitch:
       data:
@@ -580,7 +596,7 @@ voice_parts:
       overlap_delta: 3
   - position: 6960
     duration: 240
-    tone: 64
+    tone: 60
     lyric: a R息
     pitch:
       data:
@@ -592,5 +608,401 @@ voice_parts:
     phoneme_overrides:
     - index: 0
       overlap_delta: 17.1
+  curves: []
+- name: New Part
+  comment: ""
+  track_no: 1
+  position: 0
+  notes:
+  - position: 0
+    duration: 240
+    tone: 62
+    lyric: da_A3
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 240
+    duration: 240
+    tone: 63
+    lyric: e_A3
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 8
+  - position: 480
+    duration: 240
+    tone: 63
+    lyric: da_A3
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 8
+  - position: 720
+    duration: 240
+    tone: 60
+    lyric: am_A3
+    pitch:
+      data:
+      - {x: -40, y: 30, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions:
+    - {index: 0, abbr: vol, value: 60}
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 12.0002
+  - position: 960
+    duration: 120
+    tone: 68
+    lyric: ri_A3
+    pitch:
+      data:
+      - {x: -40, y: -80, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 8
+  - position: 1080
+    duration: 240
+    tone: 70
+    lyric: e_A3
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 8.0002
+  - position: 1320
+    duration: 600
+    tone: 70
+    lyric: aIaID
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 75, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions:
+    - {index: 0, abbr: vol, value: 60}
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 0.0002
+  - position: 1920
+    duration: 240
+    tone: 62
+    lyric: da_A3
+    pitch:
+      data:
+      - {x: -40, y: 80, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 8
+  - position: 2160
+    duration: 240
+    tone: 63
+    lyric: e_A3
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 8.0002
+  - position: 2400
+    duration: 240
+    tone: 62
+    lyric: da_A3
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 8
+  - position: 2640
+    duration: 240
+    tone: 60
+    lyric: am_A3
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions:
+    - {index: 0, abbr: vol, value: 60}
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 12.0002
+  - position: 2880
+    duration: 240
+    tone: 62
+    lyric: da_A3
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 8
+  - position: 3120
+    duration: 120
+    tone: 62
+    lyric: ah_A3
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 12.0002
+  - position: 3240
+    duration: 600
+    tone: 62
+    lyric: '-'
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3840
+    duration: 240
+    tone: 62
+    lyric: da_A3
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 4080
+    duration: 240
+    tone: 63
+    lyric: e_A3
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 8
+  - position: 4320
+    duration: 240
+    tone: 63
+    lyric: da_A3
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 8
+  - position: 4560
+    duration: 240
+    tone: 60
+    lyric: am_A3
+    pitch:
+      data:
+      - {x: -40, y: 30, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions:
+    - {index: 0, abbr: vol, value: 60}
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 12.0002
+  - position: 4800
+    duration: 120
+    tone: 68
+    lyric: ri_A3
+    pitch:
+      data:
+      - {x: -40, y: -80, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 8
+  - position: 4920
+    duration: 240
+    tone: 70
+    lyric: e_A3
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 8.0002
+  - position: 5160
+    duration: 600
+    tone: 70
+    lyric: aIaID
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 75, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions:
+    - {index: 0, abbr: vol, value: 60}
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 0.0002
+  - position: 5760
+    duration: 240
+    tone: 62
+    lyric: da_A3
+    pitch:
+      data:
+      - {x: -40, y: 80, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 8
+  - position: 6000
+    duration: 240
+    tone: 63
+    lyric: e_A3
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 8.0002
+  - position: 6240
+    duration: 240
+    tone: 62
+    lyric: da_A3
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 8
+  - position: 6480
+    duration: 240
+    tone: 60
+    lyric: am_A3
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions:
+    - {index: 0, abbr: vol, value: 60}
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 12.0002
+  - position: 6720
+    duration: 240
+    tone: 60
+    lyric: da_A3
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 8
+  - position: 6960
+    duration: 120
+    tone: 60
+    lyric: ah_A3
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      overlap_delta: 12.0002
+  - position: 7080
+    duration: 120
+    tone: 60
+    lyric: '-'
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
   curves: []
 wave_parts: []
